@@ -1,103 +1,102 @@
 [
-    {
-      "id": 1,
-      "name": "Wireless Gaming Mouse",
-      "description": "Ergonomic wireless mouse with 7 programmable buttons.",
-      "price": 49.99,
-      "category": "Electronics",
-      "stock": 120,
-      "rating": 4.5,
-      "vendor": "Logitech"
-    },
-    {
-      "id": 2,
-      "name": "Mechanical Keyboard",
-      "description": "RGB backlit mechanical keyboard with custom key switches.",
-      "price": 89.99,
-      "category": "Electronics",
-      "stock": 85,
-      "rating": 4.8,
-      "vendor": "Corsair"
-    },
-    {
-      "id": 3,
-      "name": "Men's Running Shoes",
-      "description": "Lightweight and breathable running shoes with cushioned sole.",
-      "price": 69.99,
-      "category": "Footwear",
-      "stock": 200,
-      "rating": 4.3,
-      "vendor": "Nike"
-    },
-    {
-      "id": 4,
-      "name": "4K Smart TV",
-      "description": "55-inch Ultra HD Smart TV with built-in streaming apps.",
-      "price": 499.99,
-      "category": "Electronics",
-      "stock": 30,
-      "rating": 4.7,
-      "vendor": "Samsung"
-    },
-    {
-      "id": 5,
-      "name": "Noise Cancelling Headphones",
-      "description": "Over-ear Bluetooth headphones with active noise cancellation.",
-      "price": 129.99,
-      "category": "Electronics",
-      "stock": 60,
-      "rating": 4.6,
-      "vendor": "Sony"
-    },
-    {
-      "id": 6,
-      "name": "Smartphone",
-      "description": "Latest model with OLED display and 128GB storage.",
-      "price": 899.99,
-      "category": "Electronics",
-      "stock": 40,
-      "rating": 4.9,
-      "vendor": "Apple"
-    },
-    {
-      "id": 7,
-      "name": "Stainless Steel Watch",
-      "description": "Water-resistant luxury watch with leather strap.",
-      "price": 199.99,
-      "category": "Accessories",
-      "stock": 75,
-      "rating": 4.2,
-      "vendor": "Fossil"
-    },
-    {
-      "id": 8,
-      "name": "Backpack",
-      "description": "Durable and waterproof backpack with laptop compartment.",
-      "price": 39.99,
-      "category": "Bags",
-      "stock": 150,
-      "rating": 4.4,
-      "vendor": "North Face"
-    },
-    {
-      "id": 9,
-      "name": "Office Chair",
-      "description": "Ergonomic office chair with adjustable armrests and lumbar support.",
-      "price": 129.99,
-      "category": "Furniture",
-      "stock": 90,
-      "rating": 4.7,
-      "vendor": "Herman Miller"
-    },
-    {
-      "id": 10,
-      "name": "Smartwatch",
-      "description": "Fitness tracking smartwatch with heart rate monitor.",
-      "price": 249.99,
-      "category": "Wearables",
-      "stock": 55,
-      "rating": 4.5,
-      "vendor": "Garmin"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Wireless Gaming Mouse",
+    "description": "Ergonomic wireless mouse with 7 programmable buttons.",
+    "price": 49.99,
+    "category": "Electronics",
+    "stock": 120,
+    "rating": 4.5,
+    "vendor": "Logitech"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard with custom key switches.",
+    "price": 89.99,
+    "category": "Electronics",
+    "stock": 85,
+    "rating": 4.8,
+    "vendor": "Corsair"
+  },
+  {
+    "id": 3,
+    "name": "Men's Running Shoes",
+    "description": "Lightweight and breathable running shoes with cushioned sole.",
+    "price": 69.99,
+    "category": "Footwear",
+    "stock": 200,
+    "rating": 4.3,
+    "vendor": "Nike"
+  },
+  {
+    "id": 4,
+    "name": "4K Smart TV",
+    "description": "55-inch Ultra HD Smart TV with built-in streaming apps.",
+    "price": 499.99,
+    "category": "Electronics",
+    "stock": 30,
+    "rating": 4.7,
+    "vendor": "Samsung"
+  },
+  {
+    "id": 5,
+    "name": "Noise Cancelling Headphones",
+    "description": "Over-ear Bluetooth headphones with active noise cancellation.",
+    "price": 129.99,
+    "category": "Electronics",
+    "stock": 60,
+    "rating": 4.6,
+    "vendor": "Sony"
+  },
+  {
+    "id": 6,
+    "name": "Smartphone",
+    "description": "Latest model with OLED display and 128GB storage.",
+    "price": 899.99,
+    "category": "Electronics",
+    "stock": 40,
+    "rating": 4.9,
+    "vendor": "Apple"
+  },
+  {
+    "id": 7,
+    "name": "Stainless Steel Watch",
+    "description": "Water-resistant luxury watch with leather strap.",
+    "price": 199.99,
+    "category": "Accessories",
+    "stock": 75,
+    "rating": 4.2,
+    "vendor": "Fossil"
+  },
+  {
+    "id": 8,
+    "name": "Backpack",
+    "description": "Durable and waterproof backpack with laptop compartment.",
+    "price": 39.99,
+    "category": "Bags",
+    "stock": 150,
+    "rating": 4.4,
+    "vendor": "North Face"
+  },
+  {
+    "id": 9,
+    "name": "Office Chair",
+    "description": "Ergonomic office chair with adjustable armrests and lumbar support.",
+    "price": 129.99,
+    "category": "Furniture",
+    "stock": 90,
+    "rating": 4.7,
+    "vendor": "Herman Miller"
+  },
+  {
+    "id": 10,
+    "name": "Smartwatch",
+    "description": "Fitness tracking smartwatch with heart rate monitor.",
+    "price": 249.99,
+    "category": "Wearables",
+    "stock": 55,
+    "rating": 4.5,
+    "vendor": "Garmin"
+  }
+]
