@@ -83,7 +83,7 @@ express.post("/update/:id", (req, res) => {
             return res.status(404).send("Product not found");
         }
 
-        product = products[idToUpdate];
+        product = products[idToUpdate]; //TODO: Fix this approach, working based off indexes isn't a good idea at all
 
         for (let key in req.body) {
 
@@ -111,6 +111,36 @@ express.post("/update/:id", (req, res) => {
             }
         });
 
+    } catch (error) {
+        console.log(`got error: ${error}`);
+        res.status(400).send(`failed trying to write product to file: ${error}`);
+    }
+
+});
+
+express.post("/delete/:id", (req, res) => {
+    const idToDelete = parseInt(req.params.id)
+
+    const productIndex = products.findIndex(product => product.id === idToDelete);
+
+    if (productIndex === -1) {
+        return res.status(404).send(`Product with id ${idToDelete} not found!`);
+    }
+
+    products.splice(productIndex, 1);
+
+    const filePath = path.join(__dirname, "db", "products.json");
+
+    try {
+        fs.writeFile(filePath, JSON.stringify(products, null, 2), (err) => {
+            if (err) {
+                console.log(`Error deleting product from file: ${err}`);
+                res.status(500).send(`Got error trying to delete product from file: ${err}`);
+            }
+        });
+
+        res.status(200).send(`Product with id ${idToDelete} deleted successfully`);
+    
     } catch (error) {
         console.log(`got error: ${error}`);
         res.status(400).send(`failed trying to write product to file: ${error}`);
